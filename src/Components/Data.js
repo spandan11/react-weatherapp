@@ -4,7 +4,7 @@ import { Search } from './Search';
 
 export const Data = () => {
 
-    const [searchValue, setSearchValue] = useState("pune");
+    const [searchValue, setSearchValue] = useState("kathmandu");
     const [tempInfo, setTempInfo] = useState({});
 
     const getWeatherInfo = async () => {
