@@ -9,7 +9,7 @@ export const Data = () => {
 
     const getWeatherInfo = async () => {
         try {
-            let url = `https://api.openweathermap.org/data/2.5/weather?q=${searchValue}&units=metric&appid=34c09de119108bf5b427de14f3489099`;
+            let url = `https://api.openweathermap.org/data/2.5/weather?q=${searchValue}&units=metric&appid=<Api_Key>`;
             let res = await fetch(url);
             let data = await res.json();
 
